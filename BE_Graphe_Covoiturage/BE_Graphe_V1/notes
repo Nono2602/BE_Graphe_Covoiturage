@@ -1,0 +1,4 @@
+Dans Graphe.java, on choisit d'enregistrer une route seulement si sa destination est dans la même zone
+que son départ. Quand on lit les noeuds dans le fichier, seulement les noeuds de la zone actuelle sont lues.
+Et donc, si on essai d'enregistrer des routes qui pointes vers des noeuds hors de la zone on a une overflow
+puisque le noeud peut avoir un numéro plus grand que le nombre de noeuds.
