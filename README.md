@@ -1,1 +1,3 @@
 # BE_Graphe_Covoiturage
+
+Implémentation des algorithmes Dijkstra et A-Star pour calculer le plus court chemin entre 2 points de coordonnées GPS (en temps ou en distance). Nous avons utilisé ces algorithmes pour calculer le temps le plus optimisé pour faire du covoiturage sur la carte de la France avec certaines contraintes. Une personne P1 à un point A devait récupérer une personne P2 à un point B pour ensuite partir ensemble à un point C. Nous devions donc trouver ce point B pour que le temps que P2 marche jusqu'au point B corresponde environ au temps de trajet de P1 entre le point A et B. Ainsi, nous avons obtenu le temps de trajet le plus rapide entre le point A et C en passant par B.
